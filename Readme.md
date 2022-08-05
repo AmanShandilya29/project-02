@@ -15,4 +15,4 @@
 
 ### Time Taken
 <hr>
-    - Took me 2 days to complete.
+    - Took me 2 days to complete
