@@ -1,7 +1,6 @@
 * {
   margin: 0;
   padding: 0;
-  box-sizing: border-box;
   font-family: "Red Rose", cursive;
 }
 
@@ -12,87 +11,81 @@
 /* ------------------------------ */
 /* ---------- HERO ------------ */
 /* ------------------------------ */
-
-body{
-  background: url("./assets/pexels-maxyne-barcel-10402282\ 1.png");
-  background-color:#232222;
-  background-size:cover;
-  background-position-x: center;
-  background-position-y: top;
+.container{
+  position: absolute;
+  background-color:#000000;
+   opacity: .8;
   height: 100vh;
-  margin: 3% 5%;
-  background-blend-mode: overlay; 
+  width: 100%;
+  
+  }
+  body{
+    background: url("./assets/pexels-maxyne-barcel-10402282\ 1.png");
+    background-size:cover;
+    background-repeat: no-repeat;
   }
   
   
   .navbar div >img{
-    position: absolute;
-    left: 300px;
-    
+    margin-top: 50px;
+    /* position: absolute; */
+    margin-left: 100px;
   }
   
-  nav{
-    display: flex;
-    flex-direction: row;
-    height: 20vh;
-    justify-content: space-between;
-   
-  }
 .button-small{
-    height: 50px;
+  height: 50px;
   width: 150px;
   background-color: #ff0000;
-  border: 2px solid red;
   color:  #ffffff;
   font-size: 20px;
   font-weight: 500;
-  position: absolute;
-  right: 300px;
+  float: right;
+  position:relative;
+  bottom: 70px;
+  right: 100px;
   
 }
 .list{
-  margin-top: 10px;
-  display: flex;
-  flex: 1;
-  justify-content: space-between;
-  align-items: center;
-  width: 500px;
   list-style-type: none;
   color: #c1c10b;
-  
+}
+.list-item{
+  float: left;
+  position: relative;
+  bottom: 50px;
+  left: 500px;
+  font-size: 20px;
+  margin-right: 100px;
 }
 .hero-heading{
-  
-  color: #c1c10b;
+  color: #E8BD0D;
   font-size: 100px;
-  font-weight: 1000;
-  margin-top: 70px;
+  margin-top: 100px;
   text-align: center;
-  line-height: 120px;
+  line-height: 150px;
   font-family: dela gothic one;
-    
-}
-h1{
-  display: inline-block;
+  /* border: 2px solid red; */
   width: 1200px;
-  height: 400px;
-  margin-left: 300px;
-  
+  position: relative;
+  left: 200px;
+  /* top: 100px; */
+  /* margin-left: 400px;   */
 }
 .button-large{
   background-color: #ff0000;
-  border: 2px solid red;
+  border: none;
   color:  #ffffff;
-  height: 70px;
-  width: 300px;
   font-weight: 500;
   font-size: 25px;
   text-align: center;
-  margin: auto;
-  display: block;
-  margin-top: 50px;
+  padding: 20px 50px;
+  position: relative;
+  left: 650px;
+  top: 80px;
  }
  .bottom{
-  position: absolute;
+  float: right;
+  position: relative;
   right: 200px;
+  top: 100px;
  }

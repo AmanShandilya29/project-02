@@ -10,7 +10,7 @@
 ###  Learnings
     - Application of CSS in navbar
     - Getting confidence in using positions
-    - Use of background-blend-mode property in CSS
+    - Use of z-index
 
 
 ### Time Taken
